@@ -6,13 +6,13 @@ import org.junit.Test;
 
 public class TriangleUtilitiesTest {
 
-    @Test
-    public void getRow() {
-        String expected = "********************";
-        int width = 20;
-        String actual = TriangleUtilities.getRow(width);
-        Assert.assertEquals(expected, actual);
-    }
+//    @Test
+//    public void getRow() {
+//        String expected = "********************";
+//        int width = 20;
+//        String actual = TriangleUtilities.getRow(width);
+//        Assert.assertEquals(expected, actual);
+//    }
 
 
     @Test
@@ -59,14 +59,14 @@ public class TriangleUtilitiesTest {
     }
 
 
-    @Test
-    public void testGetSmallTriangle() {
-        String expected =
-                        "*\n" +
-                        "**\n" +
-                        "***\n" +
-                        "****\n";
-        String actual = TriangleUtilities.getSmallTriangle();
-        Assert.assertEquals(expected, actual);
-    }
+//    @Test
+//    public void testGetSmallTriangle() {
+//        String expected =
+//                        "*\n" +
+//                        "**\n" +
+//                        "***\n" +
+//                        "****\n";
+//        String actual = TriangleUtilities.getSmallTriangle();
+//        Assert.assertEquals(expected, actual);
+//    }
 }
