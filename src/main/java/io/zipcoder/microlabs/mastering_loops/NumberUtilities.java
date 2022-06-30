@@ -88,12 +88,12 @@ public class NumberUtilities {
 
 
     public static String getExponentiations(int start, int stop, int step, int exponent) {
-//        String s="";
-//        for (int i = start; i < stop; i += step){
-//            s=s
-//        }
-
-    return null;
+        String variable = "";
+        for (int i = start; i < stop; i += step){
+            double j = Math.pow(i,exponent);
+            variable = variable + (int)j;
+        }
+    return variable;
     }
 
 
